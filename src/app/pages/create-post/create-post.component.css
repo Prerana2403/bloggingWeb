@@ -1,0 +1,40 @@
+/* Center the card vertically and horizontally */
+.center-card {
+  margin: auto;
+  max-width: 500px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Full-width form fields */
+.full-width {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Form container to align elements properly */
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for the submit button */
+.submit-button {
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+/* Style for the input fields */
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the labels */
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+  }
+  
+  .example-icon {
+    margin-right: 8px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  button[mat-raised-button] {
+    margin-left: 8px;
+  }
+  
+  .favorite-icon {
+    color: red;
+  }
